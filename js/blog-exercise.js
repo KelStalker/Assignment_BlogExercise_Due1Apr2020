@@ -21,10 +21,11 @@ class Article {
       this.title = title;
       this.content = content;
     }
-    output ()
-    {
+    output () {
       // TODO: Prepare output to the browser...
       // TODO: Use template literals.
+
+    //   New method 
     }
   }
   
@@ -41,6 +42,10 @@ class Article {
       'Brand new Topic (CSS)',
       'Today we learned about CSS, or, Cascading StyleSheets - how cool! This language helps us make our sites look pretty, we get to define the styles.'
     ),
+    new Article(
+        'Kel thoughts on (SASS)',
+        'SASS is an acronym for (S)yntactically (A)wesome (S)tyle (S)heets.  It must be compiled into regular CSS.  I have already built a compiler by following the instructions provided in the GULP tutorial video and cannot wait to use it!'
+    )
     new Article(
       'Another New Topic!? (JS)',
       'Wow! I thought the other languages were pretty neat, but this one takes the cake so far. JS, or JavaScript, can be used to bring our websites to LIFE! It is used for functionality within the webpage.'
